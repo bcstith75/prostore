@@ -18,3 +18,4 @@ export const insertProductSchema = z.object({
   banner: z.string().nullable(),
   price: currency
 })
+

@@ -14,8 +14,9 @@ const Homepage = async () => {
 
   //await delay(2000);
 
+   // 
   return ( <>
-  <ProductList  data={latestProducts} title='Newest Arrivals' limit={4}/>
+  <ProductList data={latestProducts} title='Newest Arrivals' limit={4} />
   
   </> );
 }
